@@ -1,0 +1,41 @@
+h1{
+  font-weight: 400;
+  text-decoration: underline;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f3f3;
+
+  /* padding: 20px; */
+}
+
+.data-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.data-form label {
+  margin-right: 10px;
+  font-size: medium
+  
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: medium;
+  border-radius: 5px;
+  border: 1px solid #bfbaba;
+  width: 45%;
+}
+
+svg{
+  background-color: #b7e6f3;
+  border: 1px solid grey;
+  padding: 5%;
+  border-radius: 5px;
+  margin-top: 3%;
+}
